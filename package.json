@@ -2,18 +2,16 @@
   "name": "prueba",
   "version": "0.0.0",
   "scripts": {
-    "build:prod": "ng build --prod",
-    "heroku-postbuild": "npm run build:prod",  
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "engines": {
-    "node": "12.4.0",
-    "npm": "6.9.0"
+    "node": "12.13.1",
+    "npm": "6.12.1"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +25,7 @@
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
     "chart.js": "^2.9.3",
+    "express": "^4.17.1",
     "ng2-charts": "^2.3.2",
     "rxjs": "~6.5.4",
     "sweetalert": "^2.1.2",
